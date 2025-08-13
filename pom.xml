@@ -25,6 +25,7 @@
         <module>pet-pojo</module>
         <module>pet-common</module>
         <module>pet-server</module>
+        <module>pet-device</module>
     </modules>
     <scm>
         <connection/>

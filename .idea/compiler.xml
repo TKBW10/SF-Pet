@@ -11,8 +11,9 @@
           <entry name="C:/apache-maven-3.8.8/maven-repository/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="pet-common" />
-        <module name="pet-server" />
+        <module name="pet-device" />
         <module name="pet-pojo" />
+        <module name="pet-server" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SF-Pet" options="-parameters" />
       <module name="pet-common" options="-parameters" />
+      <module name="pet-device" options="-parameters" />
       <module name="pet-pojo" options="-parameters" />
       <module name="pet-server" options="-parameters" />
     </option>

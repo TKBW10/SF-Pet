@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserLoginVo {
-    private String phoneNumber;
+    private String userId;
+    private String username;
     private String token;
 }
